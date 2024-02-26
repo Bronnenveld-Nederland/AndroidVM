@@ -5,7 +5,8 @@ Dit script bevat opties om de branch (-b of --branch) en het manifest (-m of --m
 
 ## Overzicht
 Dit script automatiseert het bouwproces van Android-x86 voor verschillende doelplatforms. Het is ontworpen om het proces te stroomlijnen, de gebruiker te voorzien van flexibiliteit bij het kiezen van opties en een geïntegreerde functie om de gebouwde image direct naar een USB-apparaat te kopiëren.
-Functies
+
+## Functies
 
     1. Bouwt Android-x86 voor zowel 32-bits als 64-bits doelplatforms.
     2. Ondersteunt verschillende branches en manifestbestanden.
@@ -18,13 +19,11 @@ Functies
 Voer het script uit met de gewenste opties:
 
 ```bash
-
 ./build_android_x86.sh -b <branch_naam> -m <manifest>
 
 Voor gedetailleerde informatie over beschikbare opties, gebruik:
 
 ```bash
-
 ./build_android_x86.sh -h
 
 ## Doel
