@@ -1,7 +1,7 @@
 # AndroidVM
 Dit script bevat opties om de branch (-b of --branch) en het manifest (-m of --manifest) te specificeren, en geeft een helpbericht weer (-h of --help). U kunt dit script uitvoeren in de terminal en de vereiste opties opgeven. Zorg ervoor dat het uitvoeringsrechten heeft (chmod +x build_android_x86.sh) voordat u het uitvoert.
 
-## Android-x86 Build Script
+### Android-x86 Build Script
 
 ## Overzicht
 Dit script automatiseert het bouwproces van Android-x86 voor verschillende doelplatforms. Het is ontworpen om het proces te stroomlijnen, de gebruiker te voorzien van flexibiliteit bij het kiezen van opties en een geïntegreerde functie om de gebouwde image direct naar een USB-apparaat te kopiëren.
@@ -17,13 +17,13 @@ Functies
 
 Voer het script uit met de gewenste opties:
 
-bash
+```bash
 
 ./build_android_x86.sh -b <branch_naam> -m <manifest>
 
 Voor gedetailleerde informatie over beschikbare opties, gebruik:
 
-bash
+```bash
 
 ./build_android_x86.sh -h
 
