@@ -8,22 +8,18 @@ Dit script automatiseert het bouwproces van Android-x86 voor verschillende doelp
 
 ## Functies
 
-    1. Bouwt Android-x86 voor zowel 32-bits als 64-bits doelplatforms.
-    2. Ondersteunt verschillende branches en manifestbestanden.
-    3. Automatiseert het instellen van de bouwomgeving en het klonen van de broncode.
-    4. Biedt opties voor het testen in virtuele machines (bijv. VirtualBox, QEMU).
-    5. Inclusief functie om de gebouwde image direct naar een USB-apparaat te kopiëren.
+1. Bouwt Android-x86 voor zowel 32-bits als 64-bits doelplatforms.
+2. Ondersteunt verschillende branches en manifestbestanden.
+3. Automatiseert het instellen van de bouwomgeving en het klonen van de broncode.
+4. Biedt opties voor het testen in virtuele machines (bijv. VirtualBox, QEMU).
+5. Inclusief functie om de gebouwde image direct naar een USB-apparaat te kopiëren.
 
 ## Gebruik
 
 Voer het script uit met de gewenste opties:
-
-```bash
 ./build_android_x86.sh -b <branch_naam> -m <manifest>
 
 Voor gedetailleerde informatie over beschikbare opties, gebruik:
-
-```bash
 ./build_android_x86.sh -h
 
 ## Doel
